@@ -11,7 +11,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    /* Dark blue background */
     background-color: #00103a;
 }
     
@@ -86,7 +85,7 @@
     padding: 20px;
     align-items: center;
     align-content: center;
-    max-width: 100%;
+    width: 100%;
     gap:50px;
     /* Background image for hero */
     background: url(/IMAGES/Artistic\ blurry\ colorful\ wallpaper\ background\ _\ Free\ Photo.jpg);
@@ -156,7 +155,7 @@
      scale:  1.05;
 }
 
-.inrobody-2{
+.introbody-2{
     /* Main body container */
     height: 100vh;
 }
@@ -200,7 +199,7 @@
 
 .bodytext-pics img{
     /* Service image styling */
-    height: 350px;
+    height: 300px;
     border-radius: 05px;
 }
 
@@ -209,13 +208,14 @@
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    color: #000000;
+    color: #060041;
     padding: 15px;
-    background-color: #e9eefd;
+    background-color: #000a2711;
     border-radius: 5px;
     margin: 10px;
     max-width: 320px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 50px;
 }
 
 .bodytext-pics img:hover{
@@ -225,4 +225,90 @@
     transition: all 0.3s ease;
 }
 
+/* Intro-2 Section - Separate container below images and details */
+.intro-2 {
+    width: 100%;
+    min-height: 20vh; 
+    margin-top: 20px;
+    padding: 40px 20px;
+     background-color: #e0e0e0;
+    align-items: center;
+    content-align: center;
+    justify-content: center;
+}
+
+.intro-2 h1 {
+    /* Styling for the heading to make it prominent */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: #00103a;
+    text-align: center;
+    margin: 0;
+}
+
+.intro-2 h2{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    margin: 10px;
+    padding:20px;
+
+}
+
+/* Footer Section */
+.footer{
+    width: 100%;
+    padding: 20px;
+    background-color: #00103a;
+    text-align: center;
+}
+.footer p{
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.footer p:hover{
+    color: yellow;
+}
+.btn-0:hover{
+    /* Button hover effect */
+     background-color: #979797;
+}
+
+.bottom-body{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    height: 100vh; 
+    padding: 40px;
+    max-width: 100%;
+    
+}
+.bottom-body h1{
+
+}
+
+.bottom-body img{
+    height: 70%;
+    border-radius: 20px;
+}
+
+.bottom-body img:hover{
+    scale: 1.05;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.bottom-body p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:#000000;
+    font-weight: normal;
+    max-width: 60%;
+}
 
