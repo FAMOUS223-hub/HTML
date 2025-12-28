@@ -15,7 +15,6 @@ body{
 .login-box{
   background: rgb(0, 20, 56);
   background: rgba(0, 20, 56, 0.1);
- 
   padding:40px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(0, 0, 0, 1);
@@ -45,10 +44,12 @@ body{
   border: none;
   border-radius: 5px;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
+ 
   
 
 }
@@ -65,8 +66,7 @@ body{
   border-radius: 5px;
   color: white;
   font-size: 16px;
-  cursor: pointer;
-
+  cursor: pointer
 
 }
 
@@ -80,21 +80,33 @@ body{
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: 45%;
-  
 
 }
 
 .form-intro h2{
   font-size: 4rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:Arial, Helvetica, sans-serif;
   color: white;
   margin-bottom: 10px;
   
 }
 
 .form-intro p{
-  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
   color:white;
   margin-top: 5px;
   margin-bottom: 30px;
+  font-weight: lighter;
+
+}
+#gender{
+   width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }

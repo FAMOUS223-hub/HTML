@@ -1,0 +1,228 @@
+/* CSS Reset: Removes default margins and padding from all elements */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Primary Navbar Styles */
+.primary-navbar{
+    /* Flexbox layout for horizontal alignment */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    /* Dark blue background */
+    background-color: #00103a;
+}
+    
+.primary-navbar nav{
+    /* Nested nav flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.primary-navbar ul{
+    /* Remove default list styling */
+    list-style: none;
+    /* Flexbox for menu items */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.primary-navbar h2{
+    /* Site title styling */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color:yellow;
+}
+
+/* Site Logo */
+.primary-navbar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+/* Hover effect for site logo */
+.primary-navbar img:hover{
+    scale: 1.1;
+    transition: all 0.3s ease;
+}
+
+
+/* Hover effect for site title */
+.primary-navbar h2:hover{
+    color: white;
+}
+
+.primary-navbar ul li a{
+    /* Menu link styling */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.primary-navbar a:hover{
+    /* Underline on hover for links */
+    text-decoration: underline;
+}
+
+/* Hero Section Styling */
+.hero-section{
+    /* Full viewport height hero */
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    max-width: 100%;
+    gap:50px;
+    /* Background image for hero */
+    background: url(/IMAGES/Artistic\ blurry\ colorful\ wallpaper\ background\ _\ Free\ Photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Text section within hero */
+.text-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 60%;
+}
+
+/* Hero section image */
+.hero-section img{
+    height: 70%;
+    border-radius: 20px;
+}
+
+/* Hover effect for hero image */
+.hero-section img:hover{
+    scale: 1.05;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.hero-section h2{
+    font-family:'Monsterrat', sans-serif;
+    font-size: 50px;
+    color:white;
+}
+
+.hero-section p{
+    /* Hero paragraph styling */
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    flex-wrap: wrap;
+    color:white;
+    font-weight: lighter;
+}
+
+/* Call to Action Button Container */
+.button-s{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-0{
+    /* Button styling */
+    width: auto;
+    padding: 12px 24px;
+    background: #ffffff;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(7, 0, 70);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.btn-0:hover{
+    /* Button hover effect */
+     background-color: #979797;
+     scale:  1.05;
+}
+
+.inrobody-2{
+    /* Main body container */
+    height: 100vh;
+}
+
+/* Body Intro Text Section */
+.bodytext{
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    max-width: 100%;
+}
+
+.bodytext h1{
+    /* Heading styling */
+    font-family:  'Monsterrat', sans-serif;
+    font-size: 45px;
+    color: #0a0035;
+}
+
+.bodytext p{
+    /* Paragraph styling */
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bodytext-pics{
+    /* Container for service images and descriptions */
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.service-item {
+    /* Individual service item: image + description */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.bodytext-pics img{
+    /* Service image styling */
+    height: 350px;
+    border-radius: 05px;
+}
+
+.bodytext-pics p{
+    /* Service description styling */
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    padding: 15px;
+    background-color: #e9eefd;
+    border-radius: 5px;
+    margin: 10px;
+    max-width: 320px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.bodytext-pics img:hover{
+    /* Hover effect for service images */
+    scale: 1.05;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+
