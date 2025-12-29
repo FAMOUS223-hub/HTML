@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/intro2.css">
+    <title>About</title>
+</head>
+<body>
+    
+<div class="container">
+    <div class="slide">
+        <div class="item active" style="background-image: url(/IMAGES/BingWallpaper.jpg);">
+            <div class="content">
+                <div class="name">Switzerland</div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus impedit nulla aut. Quis, dignissimos modi architecto repellat totam aperiam consectetur fugiat ipsam corporis vel aliquam praesentium vitae, maiores optio inventore?</div>
+                <button type="submit">See more</button>
+            </div>
+        </div>
+        <div class="item" style="background-image: url(/IMAGES/BingWallpaper\ \(2\).jpg);">
+            <div class="content">
+                <div class="name">Russia</div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus impedit nulla aut. Quis, dignissimos modi architecto repellat totam aperiam consectetur fugiat ipsam corporis vel aliquam praesentium vitae, maiores optio inventore?</div>
+                <button type="submit">See more</button>
+            </div>
+        </div>
+        <div class="item" style="background-image: url(/IMAGES/BingWallpaper\ \(1\).jpg);">
+            <div class="content">
+                <div class="name">Another Place</div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus impedit nulla aut. Quis, dignissimos modi architecto repellat totam aperiam consectetur fugiat ipsam corporis vel aliquam praesentium vitae, maiores optio inventore?</div>
+                <button type="submit">See more</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Navigation arrows -->
+    <div class="arrows">
+        <button class="arrow left">&lt;</button>
+        <button class="arrow right">&gt;</button>
+    </div>
+    
+    <!-- Thumbnails -->
+    <div class="thumbnails">
+        <img src="/IMAGES/BingWallpaper.jpg" alt="Switzerland" class="thumbnail" data-index="0">
+        <img src="/IMAGES/BingWallpaper (2).jpg" alt="Russia" class="thumbnail" data-index="1">
+        <img src="/IMAGES/BingWallpaper (1).jpg" alt="Another Place" class="thumbnail" data-index="2">
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-image">
+                <img id="modal-img" src="" alt="Modal Image">
+            </div>
+            <div class="modal-text">
+                <h2 id="modal-title"></h2>
+                <p id="modal-desc"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/JS/about.js"></script>
+
+
+</body>
+</html>
