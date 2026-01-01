@@ -4,7 +4,11 @@
     margin: 0;
 }
 
-html, body{
+html{
+    scroll-behavior: smooth;
+}
+
+body{
     overflow-x: hidden;
 }
 
@@ -16,6 +20,8 @@ html, body{
     align-items: center;
     padding: 20px 40px;
     background-color: #00103a;
+    width: 100vw;
+    box-sizing: border-box;
 }
     
 .primary-navbar nav{
@@ -30,6 +36,7 @@ html, body{
     /* Remove default list styling */
     list-style: none;
     /* Flexbox for menu items */
+    
     display: flex;
     align-items: center;
     gap: 20px;
@@ -37,15 +44,13 @@ html, body{
     margin: 0;
 }
 
-
-
-
 .primary-navbar h2{
     /* Site title styling */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     font-weight: bold;
     color:yellow;
+    flex-shrink: 0;
 }
 
 /* Site Logo */
@@ -54,6 +59,7 @@ html, body{
     width: 50px;
     border-radius: 50%;
     margin-left: 20px;
+    flex-shrink: 0;
 }
 /* Hover effect for site logo */
 .primary-navbar img:hover{
@@ -337,6 +343,7 @@ html, body{
     gap: 15px;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .nav-icons i{
@@ -368,6 +375,7 @@ html, body{
     .primary-navbar {
         padding: 10px 20px;
         flex-wrap: wrap;
+        position: relative;
     }
 
     .primary-navbar h2 {
@@ -390,6 +398,8 @@ html, body{
         background-color: #00103a;
         padding: 10px;
         display: none; /* Hide by default */
+        width: 100%;
+        z-index: 1;
     }
 
     .primary-navbar ul.show {
@@ -398,10 +408,16 @@ html, body{
 
     .hamburger {
         display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
     }
 
     .nav-icons {
         gap: 10px;
+        position: absolute;
+        top: 20px;
+        right: 60px;
     }
 
     .nav-icons i {
@@ -413,6 +429,7 @@ html, body{
         height: auto;
         padding: 20px 10px;
         gap: 20px;
+        transition: all 0.3s ease;
     }
 
     .text-section {
@@ -435,6 +452,7 @@ html, body{
 
     .button-s {
         width: 50%;
+        max-width: 200px;
         padding: 10px 20px;
     }
 
@@ -516,6 +534,10 @@ html, body{
         font-size: 16px;
     }
 
+    .hero-section {
+        padding: 10px;
+    }
+
     .hero-section h2 {
         font-size: 28px;
     }
@@ -524,28 +546,47 @@ html, body{
         font-size: 14px;
     }
 
+    .bodytext {
+        padding: 10px;
+        margin: 5px;
+    }
+
     .bodytext h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .bodytext p {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .intro-2 {
+        padding: 10px;
     }
 
     .intro-2 h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .intro-2 h2 {
         font-size: 14px;
+        padding: 5px;
+    }
+
+    .bottom-body {
+        padding: 10px;
     }
 
     .bottom-body p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .button-s {
-        width: 80%;
+        width: 100%;
+        max-width: none;
+    }
+
+    .nav-icons {
+        right: 50px;
     }
 
     .nav-icons i {
