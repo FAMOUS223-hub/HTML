@@ -56,9 +56,10 @@ body {
 .primary-navbar img {
     height: 50px;
     width: 50px;
-    border-radius: 50%;
+    border-radius: 100px;
     margin: 0 auto;
     flex-shrink: 0;
+    background-color: white;
 }
 
 /* Hover effect for site logo */

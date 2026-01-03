@@ -65,3 +65,28 @@ window.addEventListener('click', (event) => {
         modal.style.display = 'none';
     }
 });
+
+// Modal functionality for service items
+const imageModal = document.getElementById('image-modal');
+const modalImg = document.getElementById('modal-image');
+const closeBtn = document.querySelector('.close');
+
+document.querySelectorAll('.service-items').forEach(item => {
+    item.addEventListener('click', () => {
+        const img = item.querySelector('img');
+        modalImg.src = img.src;
+        imageModal.style.display = 'block';
+    });
+});
+
+// Close modal
+closeBtn.addEventListener('click', () => {
+    imageModal.style.display = 'none';
+});
+
+// Close modal when clicking outside
+window.addEventListener('click', (event) => {
+    if (event.target === imageModal) {
+        imageModal.style.display = 'none';
+    }
+});
