@@ -56,7 +56,8 @@ body {
 .primary-navbar img {
     height: 50px;
     width: 50px;
-    border-radius: 50%;
+    background-color: white;
+    border-radius: 100%;
     margin: 0 auto;
     flex-shrink: 0;
 }
