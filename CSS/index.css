@@ -290,37 +290,37 @@ body {
 }
 
 /* Footer Section */
-.footer {
+footer {
     width: 100%;
     padding: 20px;
     background-color: #00103a;
     text-align: center;
 }
 
-.footer p {
+footer p {
     font-family: 'roboto', sans-serif;
     font-size: 16px;
     color: white;
 }
 
-.footer p:hover {
+footer p:hover {
     color: yellow;
 }
 
-.footer .icons {
+footer .icons {
     display: flex;
     gap: 15px;
     justify-content: center;
     align-items: center;
 }
 
-.footer .icons i {
+footer .icons i {
     font-size: 24px;
     cursor: pointer;
     color: white;
 }
 
-.footer .icons i:hover {
+footer .icons i:hover {
     color: yellow;
 }
 
@@ -335,8 +335,7 @@ body {
 }
 
 .bottom-body img {
-    height: 70%;
-    min-width: 80px;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 100%;
